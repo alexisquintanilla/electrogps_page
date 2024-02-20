@@ -78,3 +78,19 @@
         right: 20px;
     }
 }
+
+.azul-electro {
+    color: #211F5E;
+}
+
+.bg-electro {
+    background-color: #26358C;
+}
+
+.bg-electro:hover {
+    background-color: #211F5E;
+}
+
+.bg-electro-footer {
+    background-color: #211F5E;
+}

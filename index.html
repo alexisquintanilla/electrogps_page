@@ -138,11 +138,15 @@
                         <form id="consultaDeudaform">
 
                             <div class=" mb-5 ">
-                                <label for="emailDeuda" class="col-form-label"></label>
+                                <label for="emailDeuda" class="col-form-label mb-3">Ingresa tu Email y chequea tu
+                                    cuenta</label>
                                 <input type="email" class="form-control" id="emailDeuda" name="emailDeuda"
                                     placeholder="Dirección Email" aria-describedby="emailDeuda" required>
                             </div>
-                            <button type="button" class="btn btn-primary " onclick="consulta()">Consultar</button>
+                            <div class="text-center">
+                                <button type="button" class="btn bg-electro text-white w-100"
+                                    onclick="consulta()">Consultar</button>
+                            </div>
                         </form>
                         <!-- <form>
                             <div class="mb-3">
@@ -165,11 +169,13 @@
     <section class="container">
         <section class="row">
 
+
             <form id="formularioContacto" class="col-12  col-md-8 py-5">
 
                 <section class="row">
-                    <h3>Si quieres recibir más información de nuestros servicios, envíanos un mensaje.</h3>
-                    <h4>Un experto se pondrá en contacto contigo a la brevedad</h4>
+                    <h3>Si quieres recibir más información de nuestros servicios</h3>
+                    <h3>Envíanos un mensaje</h3>
+                    <h5>Un experto se pondrá en contacto contigo a la brevedad</h5>
                     <div class="mb-2 col-12 col-md-6">
                         <label for="textNombre" class="form-label"></label>
                         <input type="text" class="form-control" id="textNombre" name="nombre" placeholder="Nombre"
@@ -202,27 +208,41 @@
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-                <button id="boton" type="submit" class="btn btn-primary">Enviar</button>
+                <button id="boton" type="submit" class="btn bg-electro text-white">Enviar</button>
             </form>
-            <section class="col-12 col-md-4  mt-4 d-none d-md-block">
+            <section class="col-md-1 mt-4 d-none d-md-block">
 
-                <div class="d-flex" style="height: 450px;">
+                <div class="d-flex ps-5" style="height: 450px;">
                     <div class="vr"></div>
                 </div>
             </section>
-        </section>
-        <!-- comunicaicon lateral -->
-        <section>
-            <div>
-                <h3>Telefono</h3>
-            </div>
-            <div>
 
+            <!-- comunicaicon lateral -->
+            <div class="col-12 col-md-3 mt-5 text-center">
+
+                <div>
+                    <i class="fa-solid fa-phone fa-3x pb-3 azul-electro"></i>
+                    <h3 class="azul-electro">Telefono</h3>
+                    <p>+56 9 3449 9417</p>
+                    <p>+56 9 7476 4475</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope fa-3x pb-3 azul-electro"></i>
+                    <h3 class="azul-electro">Telefono</h3>
+                    <a href="mailto:Contacto@electrogps.cl">Contacto@electrogps.cl</a>
+
+                </div>
+                <div class="pt-3">
+                    <i class="fa-solid fa-map-location fa-3x pb-3 azul-electro"></i>
+                    <h3 class="azul-electro">Dirección</h3>
+                    <p>Av. Macul 2701</p>
+
+                </div>
             </div>
         </section>
     </section>
 
-    <footer class="py-4 bg-dark text-white">
+    <footer class="py-4 bg-electro-footer text-white">
         <section class="row">
             <div class="col-12 col-md-4 text-center">
                 <p class="d-inline-block m-0 align-middle pt-4">&copy Electrogps Chile
@@ -239,7 +259,7 @@
                                 class="fa-brands fa-whatsapp fa-4x"></i></a>
                     </div>
                     <div class="d-inline-block ">
-                        <p class="text-start m-0 ps-2 text-blue">Whatsapp</p>
+                        <p class="text-start m-0 ps-2 text-white">Whatsapp</p>
                         <p class="">+56 97476 4475</p>
                     </div>
 
