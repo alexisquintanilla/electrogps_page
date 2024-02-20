@@ -8,20 +8,6 @@ body {
 
 }
 
-.carousel-caption {
-    position: absolute;
-    right: 15%;
-    top: 30%;
-    left: 15%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: left;
-    color: rgb(173, 26, 46);
-    text-shadow: 3px 2px 2px black;
-}
-
 .whatsapp {
     color: green;
 }
@@ -103,4 +89,13 @@ h3 {
 
 .bg-electro-footer {
     background-color: #211F5E;
+}
+
+.bg-nav {
+    background-color: #26358C;
+}
+
+.d-img {
+    filter: brightness(0.5);
+    width: 100%;
 }

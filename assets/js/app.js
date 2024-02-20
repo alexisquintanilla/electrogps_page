@@ -1,3 +1,4 @@
+// consultar deuda
 const myModal = document.getElementById('miModal')
 const myInput = document.getElementById('myInput')
 
@@ -9,7 +10,7 @@ myModal.addEventListener('shown.bs.modal', () => {
 function consulta() {
 
     var mail = document.getElementById("emailDeuda")
-    window.open('https://www.pagoselectrogps.cl/public/areaCliente.html?' + mail.value, '_self')
+    window.open('https://www.pagoselectrogps.cl/public/areaCliente.html?' + mail.value, '_blank')
 }
 
 // formulario
@@ -34,4 +35,11 @@ formularioContacto.addEventListener('submit', (e) => {
     console.log(data.get('telefono'))
     console.log(data.get('texto'))
 })
-
+// scroll menu
+$(window).scroll(function () {
+    if ($("#menus").offset().top > 200) {
+        $("#menus").addClass("bg-nav");
+    } else {
+        $("#menus").removeClass("bg-nav");
+    }
+});
