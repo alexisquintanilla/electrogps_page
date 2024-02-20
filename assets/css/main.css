@@ -1,5 +1,11 @@
 #menu {
-    background-color: blue;
+    background-color: #26358C;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+
 }
 
 .carousel-caption {
@@ -24,8 +30,12 @@
     color: rgb(136, 187, 136);
 }
 
-.text-blue {
-    color: blue;
+h3 {
+    color: #26358C;
+}
+
+.text-gris {
+    color: gray;
 }
 
 .nav-link {
