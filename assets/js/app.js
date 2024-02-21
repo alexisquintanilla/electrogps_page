@@ -7,11 +7,28 @@ myModal.addEventListener('shown.bs.modal', () => {
 
 })
 
+
 function consulta() {
 
-    var mail = document.getElementById("emailDeuda")
-    window.open('https://www.pagoselectrogps.cl/public/areaCliente.html?' + mail.value, '_blank')
+    // Ingresando el id de email a consultar
+    var emailField = document.getElementById('emailDeuda');
+
+    // definiendo los caracteres validos
+    var validEmail = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
+
+    // test para verificar el email
+    if (validEmail.test(emailField.value)) {
+        var mail = document.getElementById("emailDeuda")
+        window.open('https://www.pagoselectrogps.cl/public/areaCliente.html?' + mail.value, '_blank')
+        return true;
+    } else {
+        alert('Ingresa un Email valido por favor');
+        return false;
+    }
+
 }
+
+
 
 // formulario
 

@@ -99,3 +99,13 @@ h3 {
     filter: brightness(0.5);
     width: 100%;
 }
+
+.bg-verde {
+    background-color: #269105;
+}
+
+@media (min-width:768px) {
+    .bg-verde {
+        background-color: transparent;
+    }
+}
