@@ -7,7 +7,6 @@ myModal.addEventListener('shown.bs.modal', () => {
 
 })
 
-
 function consulta() {
 
     // Ingresando el id de email a consultar
@@ -28,35 +27,48 @@ function consulta() {
 
 }
 
-
-
 // formulario
 
-const formularioContacto = document.getElementById('formularioContacto')
-const textNombre = document.getElementById('textNombre')
-const textApellido = document.getElementById('textApellido')
-const email = document.getElementById('email')
-const textTelefono = document.getElementById('textTelefono')
-const mensaje = document.getElementById('mensaje')
-const boton = document.getElementById('boton')
+// const formularioContacto = document.getElementById('formularioContacto')
+// const textNombre = document.getElementById('textNombre')
+// const textApellido = document.getElementById('textApellido')
+// const email = document.getElementById('email')
+// const textTelefono = document.getElementById('textTelefono')
+// const mensaje = document.getElementById('mensaje')
+// const boton = document.getElementById('boton')
 
-formularioContacto.addEventListener('submit', (e) => {
-    e.preventDefault()
-    e.stopImmediatePropagation()
+// formularioContacto.addEventListener('submit', (e) => {
+//     e.preventDefault()
+//     e.stopImmediatePropagation()
 
-    const data = new FormData(formularioContacto)
+//     const data = new FormData(formularioContacto)
 
-    console.log(data.get('nombre'))
-    console.log(data.get('apellido'))
-    console.log(data.get('email'))
-    console.log(data.get('telefono'))
-    console.log(data.get('texto'))
-})
+//     console.log(data.get('nombre'))
+//     console.log(data.get('apellido'))
+//     console.log(data.get('email'))
+//     console.log(data.get('telefono'))
+//     console.log(data.get('texto'))
+// })
 // scroll menu
-$(window).scroll(function () {
-    if ($("#menus").offset().top > 200) {
-        $("#menus").addClass("bg-nav");
-    } else {
-        $("#menus").removeClass("bg-nav");
-    }
-});
+
+if (screen.width > 768) {
+    $(window).scroll(function () {
+        if ($("#menus").offset().top > 200) {
+            $("#menus").addClass("bg-azul");
+        } else {
+            $("#menus").removeClass("bg-azul");
+        }
+    });
+} else if (screen.width < 768) {
+    $("#menus").addClass("bg-azul");
+}
+
+// $(window).scroll(function () {
+//     if ($("#menus").offset().top > 200) {
+//         $("#menus").addClass("bg-azul");
+//     } else {
+//         $("#menus").removeClass("bg-azul");
+//     }
+// });
+
+

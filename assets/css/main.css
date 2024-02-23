@@ -100,12 +100,21 @@ h3 {
     width: 100%;
 }
 
-.bg-verde {
+.bg-azul {
     background-color: #211F5E;
 }
 
 @media (min-width:768px) {
-    .bg-verde {
-        background-color: transparent;
+    .bg-azul {
+        background-color: #211F5E;
     }
+}
+
+.bg-azull {
+    background-color: #211F5E;
+}
+
+.margentop {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
 }

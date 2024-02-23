@@ -24,7 +24,7 @@
 
 <body>
     <!-- navegador usuario -->
-    <nav id="menus" class="navbar py-0 fixed-top navbar-expand-lg navbar-dark text-white bg-azul">
+    <nav id="menus" class="navbar py-0 fixed-top navbar-expand-lg navbar-dark text-white bg-azull">
         <div class="container py-0">
             <div>
                 <img src="./assets/img/Logo_ElectroGPS-05.png" height="80px" alt="logo">
@@ -37,7 +37,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <nav class="navbar-nav ms-auto ">
-                    <a class="nav-link active p-3" aria-current="page" href="#inicio">Inicio</a>
+                    <a class="nav-link active p-3" aria-current="page" href="./index.html">Inicio</a>
                     <a class="nav-link p-3" href="#destacadas">Productos</a>
                     <a class="nav-link p-3" href="#formualario-contacto">Contacto</a>
                     <div>
@@ -62,54 +62,74 @@
 
     </nav>
 
-    <!-- carrusel -->
-    <section id="inicio">
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators  mb-auto">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                    class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
-                <button class="bg-dark" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button class="bg-dark" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 2"></button>
+    <!-- contenido -->
+    <div class="container margentop">
+
+        <section class="row">
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/prepago.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">GPS PREPAGO</h5>
+                        <p class="card-text">Sistema más economico pero sin soporte 24/7</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Pago único $85.000</li>
+                        <li class="list-group-item">Dispositivo GPS 4G</li>
+                        <li class="list-group-item">Instalación</li>
+                        <li class="list-group-item">Corta corriente</li>
+                        <li class="list-group-item">Control via SMS</li>
+                        <li class="list-group-item">Cliente tiene que recarga con saldo el chip Pre Pago</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Envianos un mensaje</a>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="col-12">
-                        <img src="./assets/img/carrusel.webp" class="d-img" alt="montaña">
 
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">GPS SUSCRIPCIÓN MENSUAL</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
                     </div>
-
-                </div>
-                <div class="carousel-item">
-
-                    <div class="col-12">
-                        <img src="./assets/img/carrusel2.png" class="d-img" alt="moai">
-
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
                     </div>
-
                 </div>
-                <div class="carousel-item">
-                    <div class="col-12">
-                        <img src="./assets/img/carrusel3.jpg" class="d-img" alt="pinguino">
-                    </div>
-
-                </div>
-
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
 
-        </div>
-    </section>
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">GPS SUSCRIPCIÓN ANUAL</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <!-- modal de consultar deuda -->
     <section>
@@ -145,120 +165,7 @@
         </div>
     </section>
 
-    <!-- contenido -->
-    <div class="container my-5">
-        <section class="row">
 
-            <article class="col-12 col-md-6">
-                <h3 class="text-center">Plataforma de monitoreo GPS</h2>
-                    <ul class="my-5">
-                        <li>Plataforma online 24/7, propia de ELECTRO GPS</li>
-                        <li>Visualización en tiempo real del vehículo a través de aplicación en celular o página web
-                        </li>
-                        <li>Posibilidad de detener el vehículo a través de aplicación en celular o página web (corta
-                            corriente)</li>
-                        <li>Posibilidad de programar alarmas al mail del usuario por exceder geo cercas, exceso de
-                            velocidad, desconexión del GPS, etc</li>
-                        <li>Si el equipo no tiene cobertura (en un subterráneo), queda marcada la última posición
-                            del
-                            vehículo</li>
-                        <li>Posibilidad de escuchar lo que sucede dentro de la cabina</li>
-                        <li>Reportes e historial de trayectos, con 30 días de antigüedad</li>
-                        <li>Control de mantenimiento vehicular</li>
-                        <div class="my-3">
-
-                            <a href="/planes.html" target="_blank">Revisa
-                                Nuestros Planes</a>
-                        </div>
-                    </ul>
-            </article>
-            <article class="col-12 col-md-6">
-                <div class="mb-5">
-                    <img src="./assets/img/plataforma_gps.png" width="100%" alt="">
-                </div>
-            </article>
-
-
-
-            <article class="col-12 col-md-6 text-center ">
-                <div class="mb-5">
-                    <img src="./assets/img/inmovilizador.webp" width=" 70%" alt="">
-                </div>
-            </article>
-            <article class="col-12 col-md-6">
-                <h3 class="text-center">Sistema inmovilizador Tipo llavero</h2>
-                    <ul class="my-5">
-                        <li>Inmovilizador para autos, motos, etc (anti portonazo o corta corriente)</li>
-                        <li>Alta seguridad, no detectable a simple vista
-                        </li>
-                        <li>Inmovilización del vehículo después de un minuto y medio que el llavero se encuentre a 2
-                            metros de distancia del receptor</li>
-                        <li>Incorpora botón de emergencia</li>
-                        <li>Bajo consumo de energía</li>
-                        <div class="my-3">
-
-                            <a href="https://www.youtube.com/watch?v=Bp-z1Ho77sQ&t=4s&ab_channel=ELECTROGPS">Revisa el
-                                video
-
-                                como funciona Aquí</a>
-                        </div>
-
-                    </ul>
-            </article>
-
-
-            <article class="col-12 col-md-6 ">
-                <h3 class="text-center">Mecanizado Automatizado de llaves</h2>
-                    <ul class="my-5">
-                        <li>Generamos cortes desde cero o en caso de que su llave este desgastada o rota</li>
-                        <li>Consulte mecanizado a partir de una fotografía de su llave
-                        </li>
-
-                    </ul>
-            </article>
-            <article class="col-12 col-md-6">
-                <div class="mb-5">
-
-                    <img src="./assets/img/silca_futura.jpg" style="border-radius: 50px;" width="100%" alt="">
-                </div>
-            </article>
-
-            <article class="col-12 col-md-6">
-                <div class="mb-5">
-
-                    <img src="./assets/img/PROGRAMADORA.jpg" style="border-radius: 50px;" width="100%" alt="">
-                </div>
-            </article>
-            <article class="col-12 col-md-6">
-                <h3 class="text-center">Programación vía OBD II ó EEPROM</h2>
-                    <ul class="my-5">
-                        <li>Programación de chip o control vía OBDII o EEPROM con vehículo</li>
-                        <li>Posibilidad de programar chip o controles antiguos que no funcionan con su vehículo
-                        </li>
-
-                    </ul>
-            </article>
-
-            <article class="col-12 col-md-6 ">
-                <h3 class="text-center">COPIA DE LLAVE CON CHIP</h2>
-                    <ul class="my-5">
-                        <li>Si solo cuenta con una llave de su vehículo, se recomienda realizar una copia</li>
-                        <li>Si la extravía, la reposición desde cero tiene un costo muy elevado</li>
-                        <li>Para esto, contamos con gran variedad de llaves y chip</li>
-
-                    </ul>
-            </article>
-            <article class="col-12 col-md-6">
-                <div class="mb-5">
-
-                    <img src="./assets/img/copiallave.webp" style="border-radius: 50px;" width="100%" alt="">
-                </div>
-            </article>
-        </section>
-
-
-
-    </div>
 
     <!-- contacto -->
     <section class="container">
